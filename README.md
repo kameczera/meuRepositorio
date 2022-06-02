@@ -1,2 +1,2 @@
-# meuRepositorio
-Meu Repositório Github
+# Meu Repositório
+Meu Repositório Github, guardarei meus projetos aqui
