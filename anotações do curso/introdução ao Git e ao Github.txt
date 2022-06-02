@@ -1,0 +1,69 @@
+# Objetos internos do Git
+
+A função hash devolve o sha1 da string
+
+O jeito que git manipula é por objetos
+
+O git armazena metadados
+
+O  blob sendo o bloco básico de composição, a tree armazenando e apontando para tipos de blobs
+
+A tree monta a estrutura dos arquivos
+
+A tree pode apontar para outra tree
+
+Commit aponta para um autor e uma mensagem
+
+Mudar qualquer coisa em uma tree, mudará o commit
+
+Temos blobs que são arquivos
+
+Uma tree que aponta e armazena esses arquivos
+
+Commit que dá significado para as mudanças
+
+## Sistema distribuído seguro
+
+Se o sistema/nuvem cair, todos contribuidores tem uma cópia salva no computador
+
+# Chave SSH e Token
+
+## Chave SSH
+
+Forma de estabelecer uma comunicação segura e criptografada. A máquina fica configurada
+
+# Primeiros comandos com Git
+
+- git init (inicializar um repositório vazio OBS: usar o comando dentro da pasta)
+- git add * (move todos arquivos untracked para staged)
+- git rm (remove arquivos)
+- git commit -m “commit inicial” (gerar commits/ envelopar os arquivos stageds)
+- git config —global [user.email](http://user.email) “leokamei1@gmail.com”
+- git config —global [user.name](http://user.name) kamei
+- mkdir nome-da-pasta (fazer uma pasta)
+- cd nome-da-pasta
+- ls -a (mostrar pastas ocultas)
+- git status (mostra o status dos arquivos)
+- mv nome_do_arquivo.txt ./nome_da_pasta/ (mover um arquivo para uma determinada pasta)
+- echo > [README.md](http://README.md) (criar um readme)
+- git remote add origin *link do github* (apontar o repositório local para o github)
+- git remote -v (mostrar lista de repositórios cadastrados)
+- git push origin master (mandar arquivos commitados para o github)
+- git pull origin master (puxar arquivos do github para o repositório local)
+- git clone *link do github* (clonar um repositório github)
+
+tracked - arquivos que o git têm ciência deles
+
+untracked - arquivos que o git não têm ciência deles
+
+unmodified - arquivo não modificado
+
+modified - arquivo modificado
+
+staged - arquivos esperando para ser um commit
+
+# Resolvendo conflitos
+
+Códigos que são alterados na mesma linha por pessoas diferentes causam conflitos no github
+
+Quando isso acontece, para resolver conflitos, devemos abrir o arquivo e fazer os mesmos passos para dar o push
