@@ -1,0 +1,69 @@
+.logo p{
+    display:inline;
+    position: absolute;
+    vertical-align: middle;
+    font-size: 35px;
+    margin: 10px;
+    font-family:Courier New, fantasy, cursive, Helvetica;
+    color:#0c0d0e;
+}
+
+body{
+    height: 100vh;
+    width:100%;
+}
+
+.photo-actions{
+    height: calc(100vh - 45px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo{
+    width: 98vw;
+    height:85vh;
+    background: url(./imagens/cachorro.jpg);
+    border-radius: 10px;
+    display:flex;
+    align-items: flex-end;
+    color: #eee;
+    box-shadow: 0 2px 10px rgba(136, 136, 136, .77);
+}
+
+.photo-text {
+    padding: 15px;
+    width: 100%;
+    background: rgb(2,0,36);
+    background: rgb(2,0,36);
+    background: linear-gradient(
+        180deg,
+        rgba(2,0,36,1) 0%,
+        rgba(35,34,65,0) 0%,
+        rgba(0,0,0, .7) 50%
+    );
+    border-radius: 10px;
+
+}
+.name-age{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.name-age h2 {
+    font-size: 1.8rem;
+}
+
+
+@media screen and (max-width:600px){
+    .projetos_area{
+        padding-left: 20px;
+    }
+}
+
+    main {
+      margin-top: 40px;
+    }
+
+ 
+ 
