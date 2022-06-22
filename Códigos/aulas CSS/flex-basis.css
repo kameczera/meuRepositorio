@@ -1,5 +1,5 @@
 .flex-container{
-    max-width: 300px;
+    max-width: 500px;
     border: 1px solid black;
     display: flex;
 }
@@ -21,4 +21,7 @@
 }
 .b-0{
     flex-basis: 0;
+}
+.w100{
+    flex-basis: 100px;
 }
