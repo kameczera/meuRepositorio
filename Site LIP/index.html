@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<title>Produto 9 - Site de auxílio ao aprendizado de programação do Arduino</title>
+</head>
+<body>
+
+<div class="header">
+  <a href="#default" class="logo">Produto 9</a>
+</div>
+
+<div style="padding-left:20px">
+    <h1>Metaverso</h1>
+    <p>O conceito de metaverso é bem simples. Analisando o passado, vemos que transformamos coisas do mundo real que envolviam, livros, jornais, pinturas e fotos, para o mundo digital, em computadores e com a internet. O metaverso é algo muito próximo, onde vamos transformar a nossa vida real em uma vida digital. <br><br>
+
+        O metaverso é uma ideia de universo online 3D que combina diversos ambientes virtuais. Podemos imaginar como será a próxima interação futura com a Internet, permitindo que os usuários trabalhem, se encontrem, joguem e socializem em um ambientes 3D.<br><br>
+        
+        Você vai poder voar no metaverso, surfar algumas ondas no hawaii ou até mesmo jogar uma partida de xadrez em nova York.  Tudo isso sem sair de casa, apenas utilizando uma realidade virtual.<br><br>
+        
+        Outra premissa do metaverso será permitir trabalhar e aprender dentro dele. Imagine que a sua empresa marque uma reunião dentro do metaverso, a única coisa que você vai precisar fazer é colocar seu óculos de realidade virtual, conectar-se a internet e se juntar a sua equipe, sem ter que se arrumar, pegar trânsito ou estar fisicamente presente no lugar.<br><br>
+        
+        Também imagine você poder aprender sobre os planetas vendo eles através do metaverso, ou poder visitar acontecimentos históricos e olhar eles acontecerem diante dos seus olhos. <br><br>
+        
+        Mas, o metaverso ainda não existe em sua totalidade, mas algumas plataformas possuem elementos semelhantes. Atualmente, são os videogames e jogos que oferecem a experiência mais próxima do conceito de metaverso.</p>
+
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/kErm-FAvsY8" title="100 DIAS SOBREVIVENDO NO METAVERSO? A verdade sobre o Meta!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h1>Arduino no Tinkercad</h1>
+        <p>Comunicação serial de 2 arduinos</p>
+        <iframe width="725" height="453" src="https://www.tinkercad.com/embed/0tOTK2WTvWl?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+        <h1>Guitar Hero no Scratch</h1>
+  <link
+      rel="stylesheet"
+      href="https://unpkg.com/leopard@^1/dist/index.min.css"
+    />
+  </head>
+  <body>
+    <button id="greenFlag">Green Flag</button>
+    <div id="project"></div>
+
+    <script type="module">
+      import project from "./index.js";
+
+      project.attach("#project");
+
+      document.querySelector("#greenFlag").addEventListener("click", () => {
+        project.greenFlag();
+      });
+
+      // Autoplay
+      project.greenFlag();
+    </script>
+    <a href="https://scratch.mit.edu/projects/649583348/">Link para jogar o jogo no scratch</a>
+    <h2>Jogar no iframe</h2>
+    <iframe src="https://scratch.mit.edu/projects/649583348/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    <h1>Projeto SLNOVA</h1>
+    <a href="https://www.slnova.org/kamei/projects/847899/edit/">Testar o projeto SLNOVA</a>
+</div>
+
+</body>
+</html>
